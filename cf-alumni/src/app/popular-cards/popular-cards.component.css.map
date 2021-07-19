@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "popular-cards.component.scss"
+    ],
+    "names": [],
+    "file": "popular-cards.component.css"
+}
