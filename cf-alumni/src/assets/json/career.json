@@ -1,12 +1,10 @@
 [{
-  "id": 0,
   "name": "Test Article 1",
   "text": "Job Offer 1",
   "company_name": "Company A",
   "company_info": "Some Info about Company A.",
   "date": "June 25, 2021 11:13"
 }, {
-  "id": 1,
   "name": "Test Article II",
   "text": "Job Offer II",
   "company_name": "Company b",

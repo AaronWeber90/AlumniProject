@@ -1,1 +1,17 @@
-/* No CSS *//*# sourceMappingURL=navbar.component.css.map */
+.blog-header .navbar {
+  background: #777474;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: #d4d7d8;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  color: #fcf9f9;
+}
+/*# sourceMappingURL=navbar.component.css.map */
