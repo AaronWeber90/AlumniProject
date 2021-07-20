@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import AlumniData from 'src/assets/json/alumni.json';
 
 @Component({
   selector: 'app-alumni-dir',
@@ -6,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./alumni-dir.component.scss']
 })
 export class AlumniDirComponent implements OnInit {
+  // students: any = studenstData;
 
-  constructor() { }
+  constructor() { 
+    // dont know what to do here
+  }
 
   ngOnInit(): void {
   }
