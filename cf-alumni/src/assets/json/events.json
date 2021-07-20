@@ -1,0 +1,13 @@
+[{
+  "name": "Boston: Pub Night",
+  "text": "Describe Event One",
+  "date": "March 4, 2021 08:00"
+}, {
+  "name": "Pasadena: Monthly Lunch",
+  "text": "Describe Event Two",
+  "date": "March 6, 2021 07:30"
+}, {
+  "name": "Washington DC: Sunday Social",
+  "text": "Describe Event Three",
+  "date": "March 8, 2021 07:30"
+}]
