@@ -1,1 +1,26 @@
-<p>careers works!</p>
+<ul>
+    <li *ngFor="let article of article_list">
+      <h2>{{article.name}}</h2>
+      {{article.date}}
+    </li>
+</ul>
+
+  
+<article class="blog-post"> <!-- loop through blogpost data -->
+    <h2 class="blog-post-title text-center text-md-start">(Article Title)</h2>
+    <p class="blog-post-meta">(Creation Date) by <a routerLink="company_a">(Company A)</a></p>
+
+    <p class="text-muted">(Info about Company)</p>
+    <p>(Job Offer Description)</p>
+    <hr class="style-one">
+</article>
+
+
+<article class="blog-post"> <!-- loop through blogpost data -->
+    <h2 class="blog-post-title text-center text-md-start">(Article Title)</h2>
+    <p class="blog-post-meta">(Creation Date) by <a routerLink="company_a">(Company A)</a></p>
+
+    <p class="text-muted">(Info about Company)</p>
+    <p>(Job Offer Description)</p>
+    <hr class="style-one">
+</article>

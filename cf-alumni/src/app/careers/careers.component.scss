@@ -1,0 +1,46 @@
+/*
+ * Blog posts
+ */
+.blog-post {
+    margin-bottom: 6rem;
+}
+
+.blog-post-title {
+    margin-bottom: 0.6rem;
+}
+
+.blog-post-meta {
+    margin-bottom: 1rem;
+    color: #727272;
+}
+
+.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #fff, #333, #fff);
+}
+
+// Mimicking bootstrap tablet breakpoint
+@media screen and (min-width: 768px) {
+    .blog-post {
+        margin-bottom: 4rem;
+    }
+    
+    .blog-post-title {
+        margin-bottom: 0.4rem;
+    }
+    
+    .blog-post-meta {
+        margin-bottom: 1.2rem;
+    }
+
+    .style-one {
+        border: 0;
+        height: 1px;
+        background: #333;
+        background-image: linear-gradient(to left, #fff, #333);
+    }
+}
+
+
