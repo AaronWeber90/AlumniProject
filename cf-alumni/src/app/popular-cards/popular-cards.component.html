@@ -1,47 +1,21 @@
 <div class="cards">
 
-
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 align-content-center"> <!-- Grid system created once -->
-        <div class="col"> <!-- For each Card LOOP -->
+        <div class="col" *ngFor="let popular of popular_list; index as popular_id"> <!-- For each Card LOOP -->
             <div class="card h-100">
-                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                <svg class="bd-placeholder-img" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">(Top Image)</text></svg>
+                <a routerLink="{{popular.type}}">
+                    <img src="/assets/img/{{popular.image}}" class="card-img-top" alt="{{popular.name}}">
+                </a>
+                <div class="card-body text-center">
+                    <h5 class="card-title">{{popular.name}}</h5>
+                </div>
+                <div class="card-footer text-center">
+                    <p class="card-text text-muted">{{popular.date}}</p>
+                </div>
     
-                <div class="card-body text-center">
-                  <h5 class="card-title">(Card title)</h5>
-                  <p class="card-text text-muted">(Date of Creation)</p>
-                </div>
             </div>
-        </div>
-        <div class="col"> <!-- For each Card LOOP -->
-            <div class="card h-100">
-                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                <svg class="bd-placeholder-img" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">(Top Image)</text></svg>
-    
-                <div class="card-body text-center">
-                  <h5 class="card-title">(Card title)</h5>
-                  <p class="card-text text-muted">(Date of Creation)</p>
-                </div>
-            </div>
-        </div>
-        <div class="col"> <!-- For each Card LOOP -->
-            <div class="card h-100">
-                <!-- <img src="..." class="card-img-top" alt="..."> -->
-                <svg class="bd-placeholder-img" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">(Top Image)</text></svg>
-                <div class="card-body text-center">
-                  <h5 class="card-title">(Card title)</h5>
-                  <p class="card-text text-muted">(Date of Creation)</p>
-                </div>
-            </div>
-        </div>        
+        </div>      
     </div>
-    
-    
-    
-
-
 
 </div>
-
-
 

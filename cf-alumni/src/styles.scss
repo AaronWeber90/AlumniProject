@@ -10,3 +10,13 @@
 body {
     background-color: rgb(220, 220, 220);
 }
+
+
+.style-one {
+    border: 0;
+    height: 1px;
+    width: 90%;
+    margin-bottom: 1rem;
+    background: black;
+    background-image: linear-gradient(to right, white, black, white);
+}

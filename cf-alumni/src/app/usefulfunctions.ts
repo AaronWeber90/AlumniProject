@@ -5,10 +5,21 @@ export function SortDesc(a: any, b: any): number {
 }
 
 export function GetFirstElem(list: any, is_sort?: boolean): Object {
-  // console.log(is_sort);
   // if (!is_sort) is_sort = false;
   if (is_sort) {
     list.sort(SortDesc);
   }
   return list[0];
+}
+
+export function GetGraduationYear(object: any): number {
+  let date = new Date(object.date);
+  return date.getFullYear();
+}
+
+export interface IPopular {
+  name: string;
+  date: Date;
+  image: string;
+  type: string
 }

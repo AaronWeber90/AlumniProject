@@ -9,4 +9,14 @@
 body {
   background-color: gainsboro;
 }
+
+.style-one {
+  border: 0;
+  height: 1px;
+  width: 90%;
+  margin-bottom: 1rem;
+  background: black;
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(black), to(white));
+  background-image: linear-gradient(to right, white, black, white);
+}
 /*# sourceMappingURL=styles.css.map */

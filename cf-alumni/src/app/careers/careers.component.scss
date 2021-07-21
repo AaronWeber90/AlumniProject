@@ -16,14 +16,7 @@
     color: #727272;
 }
 
-.style-one {
-    border: 0;
-    height: 1px;
-    width: 90vw;
-    margin-bottom: 1rem;
-    background: #333;
-    background-image: linear-gradient(to right, #fff, #333, #fff);
-}
+
 
 // Mimicking bootstrap tablet breakpoint
 @media screen and (min-width: 768px) {
