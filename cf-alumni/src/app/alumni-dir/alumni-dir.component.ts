@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import AlumniData from 'src/assets/json/alumni.json';
+import StudentstData from 'src/assets/json/alumni.json';
 
 @Component({
   selector: 'app-alumni-dir',
@@ -7,7 +7,7 @@ import AlumniData from 'src/assets/json/alumni.json';
   styleUrls: ['./alumni-dir.component.scss']
 })
 export class AlumniDirComponent implements OnInit {
-  // students: any = studenstData;
+  students_list: any = StudentstData;
 
   constructor() { 
     // dont know what to do here
