@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroComponent implements OnInit {
 
+  heroText:String = "Our greatest Discovery is you!";
+  heroTitle1:String = "CodeFactory";
+  heroTitle2:String = "Alumni!";
   constructor() { }
 
   ngOnInit(): void {
