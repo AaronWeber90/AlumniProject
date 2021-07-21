@@ -4,18 +4,11 @@
 
 <div class="container bg-light h-100"><strong>EVENTS THIS WEEK</strong> 
 
-<div class="d-flex flex-column justify-content-center align-content-center text-center text-lg-start mt-3">
+<div *ngFor="let event of events_list"  class="d-flex flex-column justify-content-center align-content-center text-center text-lg-start mt-3">
     <div class="row g-0 g-lg-0 mb-3 mb-lg-4">
-        <div class="col-12 col-lg-4"><b>(Wed Mar 04)</b></div>
-        <div class="col-12 col-lg-8"><a routerLink="events">(Vienna: Pub Night)</a></div>
+        <div class="col-12 col-lg-4"><b>{{event.name}}</b></div>
+        <div class="col-12 col-lg-8"><a routerLink="events">{{event.date}}</a></div>
     </div>
-    <div class="row g-0 g-lg-0 mb-3 mb-lg-4">
-        <div class="col-12 col-lg-4"><strong>(Fri Mar 06)</strong></div>
-        <div class="col-12 col-lg-8"><a routerLink="events">(Graz: Monthly Lunch )</a></div>
-    </div>    
-    <div class="row g-0 g-lg-0 mb-3 mb-lg-4">
-        <div class="col-12 col-lg-4"><strong>(Sun Mar 08)</strong></div>
-        <div class="col-12 col-lg-8"><a routerLink="events">(Linz: Sunday Social )</a></div>
-    </div>      
+          
 </div>
 </div>  
