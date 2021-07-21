@@ -5,4 +5,8 @@
   background: #fff no-repeat center !important;
   background-size: cover !important;
 }
+
+button:hover {
+  background-color: darkgoldenrod;
+}
 /*# sourceMappingURL=alumni-dir.component.css.map */

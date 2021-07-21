@@ -8,8 +8,7 @@ export function GetFirstElem(list: any, is_sort?: boolean): Object {
   // console.log(is_sort);
   // if (!is_sort) is_sort = false;
   if (is_sort) {
-    // list.sort(SortDesc);
-    console.log("I am here");
+    list.sort(SortDesc);
   }
   return list[0];
 }

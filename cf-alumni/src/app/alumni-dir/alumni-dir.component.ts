@@ -9,12 +9,18 @@ import { SortDesc, GetFirstElem } from '../usefulfunctions';
 })
 export class AlumniDirComponent implements OnInit {
   students_list: any = StudentstData;
-  first_element: any = GetFirstElem(this.students_list, true);
+  first_elem: any = GetFirstElem(this.students_list);
+  description: string[] = [];
   constructor() { }
 
   GetGraduationYear(student_id: number): number {
     let date = new Date(this.students_list[student_id].date);
     return date.getFullYear();
+  }
+
+  ShowStudentText(student_id: number): void {
+    // alert("I am working " + student_id);
+    this.description[student_id] = this.students_list[student_id].text;
   }
 
   ngOnInit(): void { }
