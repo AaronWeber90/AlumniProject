@@ -6,21 +6,21 @@
 </ul> -->
 
 <h1 class="text-center">Job Offers</h1>  
-<article class="blog-post"> <!-- loop through blogpost data -->
+<article class="blog-post bg-light p-2 border-0 rounded-0 shadow-sm" *ngFor="let career of career_list; index as career_id" > <!-- loop through blogpost data -->
+    <h2 class="blog-post-title text-center text-md-start">{{career.name}}</h2>
+    <p class="blog-post-meta">{{career.date}} by <a routerLink="{{career.company_name}}">{{career.company_name}}</a></p>
+    <hr class="style-one">
+    <p class="text-muted">{{career.company_info}}</p>
+    <p>{{career.text}}</p>
+    
+</article>
+
+
+<!-- <article class="blog-post">
     <h2 class="blog-post-title text-center text-md-start">(Article Title)</h2>
     <p class="blog-post-meta">(Creation Date) by <a routerLink="company_a">(Company A)</a></p>
 
     <p class="text-muted">(Info about Company)</p>
     <p>(Job Offer Description)</p>
     <hr class="style-one">
-</article>
-
-
-<article class="blog-post"> <!-- loop through blogpost data -->
-    <h2 class="blog-post-title text-center text-md-start">(Article Title)</h2>
-    <p class="blog-post-meta">(Creation Date) by <a routerLink="company_a">(Company A)</a></p>
-
-    <p class="text-muted">(Info about Company)</p>
-    <p>(Job Offer Description)</p>
-    <hr class="style-one">
-</article>
+</article> -->
