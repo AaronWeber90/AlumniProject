@@ -1,19 +1,19 @@
 [{
-  "name": "Boston: Pub Night",
+  "name": "Pub Night",
   "text": "Describe Event One",
   "image": "event1.jpg",
   "location": "Vienna",
   "date": "March 4, 2021 08:00"
 }, {
-  "name": "Pasadena: Monthly Lunch",
+  "name": "Monthly Lunch",
   "text": "Describe Event Two",
   "image": "event2.jpg",
-  "location": "Stockerau",
+  "location": "Graz",
   "date": "March 6, 2021 10:00"
 }, {
-  "name": "Washington DC: Sunday Social",
+  "name": "Sunday Social",
   "text": "Describe Event Three",
   "image": "event3.jpg",
-  "location": "Vösendorf",
+  "location": "Linz",
   "date": "March 8, 2021 07:30"
 }]
