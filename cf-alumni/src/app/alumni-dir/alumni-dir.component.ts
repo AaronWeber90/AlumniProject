@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import StudentstData from 'src/assets/json/alumni.json';
-import { SortDesc, GetFirstElem } from '../usefulfunctions';
+import { SortDesc, GetFirstElem, GetGraduationYear as ggy} from '../usefulfunctions';
 
 @Component({
   selector: 'app-alumni-dir',
@@ -9,13 +9,14 @@ import { SortDesc, GetFirstElem } from '../usefulfunctions';
 })
 export class AlumniDirComponent implements OnInit {
   students_list: any = StudentstData;
-  first_elem: any = GetFirstElem(this.students_list);
+  first_elem: any = GetFirstElem(this.students_list, true);
   description: string[] = [];
   constructor() { }
 
   GetGraduationYear(student_id: number): number {
-    let date = new Date(this.students_list[student_id].date);
-    return date.getFullYear();
+    // let date = new Date(this.students_list[student_id].date);
+    // return date.getFullYear();
+    return ggy(this.students_list[student_id]);
   }
 
   ShowStudentText(student_id: number): void {
