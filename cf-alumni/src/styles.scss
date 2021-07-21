@@ -1,7 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-$color-dummy1: red;
-$color-dummy2: green;
-$color-dummy3: blue;
 
 
 * {
@@ -10,3 +7,6 @@ $color-dummy3: blue;
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(220, 220, 220);
+}

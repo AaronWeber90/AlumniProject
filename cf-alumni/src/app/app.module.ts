@@ -15,7 +15,6 @@ import { PurposeInfoComponent } from './purpose-info/purpose-info.component';
 import { PopularCardsComponent } from './popular-cards/popular-cards.component';
 import { HeroComponent } from './hero/hero.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
