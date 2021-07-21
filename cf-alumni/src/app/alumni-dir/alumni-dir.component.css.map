@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,gBAAgB;EACvB,MAAM,EAAE,gBAAgB;EACxB,aAAa,EAAE,cAAc;EAC7B,UAAU,EAAE,gCAAgC;EAC5C,eAAe,EAAE,gBAAgB;CAClC",
     "sources": [
         "alumni-dir.component.scss"
     ],
