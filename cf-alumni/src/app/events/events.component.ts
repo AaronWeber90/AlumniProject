@@ -9,10 +9,9 @@ import { SortDesc, GetFirstElem } from '../usefulfunctions';
 })
 export class EventsComponent implements OnInit {
   events_list: any = EventsData;
+  first_elem: any = GetFirstElem(this.events_list);
   constructor() { }
 
-  ngOnInit(): void {
-    GetFirstElem(this.events_list, true);
-  }
+  ngOnInit(): void {}
 
 }
