@@ -1,0 +1,25 @@
+.sidebar {
+  margin-left: 5%;
+  margin-top: 1rem;
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.sidebar .event-name {
+  font-size: 0.9rem;
+}
+.sidebar .event-date {
+  font-size: 0.9rem;
+  margin-left: 5%;
+  text-decoration: none;
+  color: darkgoldenrod;
+  cursor: pointer;
+}
+
+@media Only screen and (max-width: 768px) {
+  .sidebar {
+    margin-left: 1.7%;
+    margin-right: 4px;
+  }
+}
