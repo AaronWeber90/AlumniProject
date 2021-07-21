@@ -3,42 +3,42 @@
         "name": "Maria Pichler",
         "date": "September 14, 2019 16:00",
         "course": "Fullstack Web Developer",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "test_student.jpg"
+        "text": " I always wanted to learn coding, and I tried on my own for a year. It was really difficult since I didn’t really know where to start. After doing a lot of research, I finally decided to attend the bootcamp during the pandemic. This was definitely one of the best decisions of my life. The Fullstack Course is definitely super intense and immersive. You have to be fully committed. I truly recommend ",
+        "image": "student1.jpg"
     },
     {
         "name": "Julian Wagner",
         "date": "March 4, 2020 16:00",
         "course": "Frontend Developer",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "test_student.jpg"
+        "text": "There’s a lecture in the morning, and then you work on challenge all day with an assigned buddy. It makes it really straight-forward, and you start coding on the very first day. At the end of the 7 weeks, you will be able to build a marketplace from scratch, it seems impossible but with Code Factory resources, it is..",
+        "image": "student5.jpeg"
     },
     {
         "name": "Anna Moser",
         "date": "September 16, 2021 16:00",
         "course": "Python Programming",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "test_student.jpg"
+        "text": "The Code Factory is a caring and studious environment not only to learn how to code, but to learn to learn. The challenges are daily to always go a little further in the concepts of programming while consolidating the knowledge acquired.",
+        "image": "student2.jpg"
     },
     {
         "name": "Dario Weber",
         "date": "January 19, 2018 16:00",
         "course": "Backend Developer",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "test_student.jpg"
+        "text": "After 15 years in the web industry, as a product manager, I felt the need to acquire new technical skills. Freshly graduated in Code Factory full stack web dev bootcamp, I feel empowered and ready to start a new chapter in my career.",
+        "image": "student6.jpeg"
     },
     {
         "name": "Ella Winkler",
         "date": "March 4, 2020 16:00",
         "course": "HTML/CSS",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "test_student.jpg"
+        "text": "Before joining the HTML/CSS course, I had no knowledge of coding but I love learning, creating and I am very motivated. The Code Factory has met all my expectations and opened the doors to a new professional universe. I highly recommend it to anyone looking for a career change.",
+        "image": "student3.jpeg"
     },
     {
         "name": "Otto Hoffmann",
         "date": "January 19, 2018 16:00",
         "course": "Frontend Developer",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "test_student.jpg"
+        "text": "The teachers who intervene during these 9 weeks of training are themselves former students of The Code Factory. They are fully aware of the difficulties we face because they have experienced them! Their remarks are always very relevant and reassuring. Rather than giving us the answers to the problems we encounter, they help us find the solution by guiding us on the right path. And this is done in good humor and kindness.",
+        "image": "student4.jpeg"
     }
 ]

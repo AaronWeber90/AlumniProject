@@ -3,28 +3,28 @@
         "name": "Maria Pichler",
         "graduation": "Graduated in 2019",
         "job": "Fullstack Web Developer",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "https://cdn.pixabay.com/photo/2013/04/02/13/06/beach-99388__340.jpg"
+        "text": "I sold my gaming PC, all of my podcast recording equipment, deleted all of my shows, and promised to not play any games or watch TV until I got a job. Here's how I made key sacrifices, found a community, hunted for a job, and finally landed one. After working at IBM and MedSpoke, I now work on web development for Amazon. ",
+        "image": "story2.jpg"
     },
     {
         "name": "Julian Wagner",
         "graduation": "Graduated in 2020.",
         "job": "Frontend Developer",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "https://cdn.pixabay.com/photo/2013/04/02/13/06/beach-99388__340.jpg"
+        "text": "I was lucky enough to join a company that offered a lot of autonomy and a web development class for anyone, not just IT folks. So I was encouraged to become a developer after I expressed my interest to my manager. It was just a start and I decided to take the Code Factory Frontend course and now I work for Pinterest.",
+        "image": "story1.jpg"
     },
     {
         "name": "Anna Moser",
         "graduation": "Graduated in 2021.",
         "job": "Phyton Programmer",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "https://cdn.pixabay.com/photo/2013/04/02/13/06/beach-99388__340.jpg"
+        "text": " I started learning some programming in the '80s, '90s, and early 2000s. I ended up going to grad school twice before I moved from hardware engineering to programming. I've found that the paths that people take to get into programming are much more varied than stereotypes give credit for, and I think it's useful to see that. Today I run a startup ranked #7 in Europe. ",
+        "image": "story4.jpg"
     },
     {
         "name": "Dario Weber",
         "graduation": "Graduated in 2018",
         "job": "Backend Developer",
-        "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit provident eum autem, atque quo repellendus perferendis ipsum reiciendis sed voluptatum.",
-        "image": "https://cdn.pixabay.com/photo/2013/04/02/13/06/beach-99388__340.jpg"
+        "text": "I worked in the culinary industry for many years before realising I wanted a career change.I remembered my teenager hobby of modifying web pages in the notepad editor and decided to start by doing the cheapest web design jobs on Craigslist, until I finally took the Code Factory Backend course and now, 6 months after I work for Facebook.",
+        "image": "story3jpeg"
     }
 ]
