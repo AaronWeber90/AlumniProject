@@ -1,9 +1,9 @@
-<h1 class="text-center">Alumni Directory</h1>
+<h1 class="text-center mt-2 mb-4 my-md-2 my-lg-1">Alumni Directory</h1>
 
 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-1 mx-lg-4 mb-4 d-flex justify-content-center">
   <!-- class="container-fluid col-lg-3 col-md-6 col-sm-12 border-0  rounded-0 shadow-sm" -->
   <div *ngFor="let student of students_list; index as student_id" class="col col-md-6 col-lg-4">
-    <div class="card h-100 border-0  rounded-0 shadow-sm">
+    <div class="card h-100 border-0 rounded-0 shadow-sm">
       <img src="/assets/img/{{student.image}}" class="my-2 mx-auto thumb-post" alt="{{student.name}}">
         
       <div class="mt-0 pt-0 card-body">

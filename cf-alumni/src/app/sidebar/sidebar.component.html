@@ -2,13 +2,14 @@
 <!-- list-unstyled fst-italic-->
 <!-- add "- <Month>" after text in html -->
 
-<div class="container bg-light h-100"><strong>EVENTS THIS WEEK</strong> 
+<div class="container bg-light h-100">
+    <h5 class="pt-2 text-center"><strong>EVENTS THIS WEEK</strong></h5> 
 
-<div *ngFor="let event of events_list"  class="d-flex flex-column justify-content-center align-content-center text-center text-lg-start mt-3">
-    <div class="row g-0 g-lg-0 mb-3 mb-lg-4">
-        <div class="col-12 col-lg-4"><b>{{event.name}}</b></div>
-        <div class="col-12 col-lg-8"><a routerLink="events">{{event.date}}</a></div>
+    <div *ngFor="let event of events_list"  class="d-flex flex-column justify-content-center align-content-center text-center text-lg-start mt-3">
+        <div class="row g-0 g-lg-0 mb-3 mb-lg-4">
+            <div class="col-12 col-lg-4"><b>{{event.name}}</b></div>
+            <div class="col-12 col-lg-8"><a routerLink="events">{{event.date}}</a></div>
+        </div>
+            
     </div>
-          
-</div>
 </div>  
