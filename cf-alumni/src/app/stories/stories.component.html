@@ -1,22 +1,23 @@
-<p>stories works!</p>
+<h1 class="text-center">Stories</h1>
 
-<div class="card mb-3" style="max-width: 540px;">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mx-1 mx-lg-4 mb-4 d-flex justify-content-center"> 
+<div *ngFor="let story of stories_list" class="col col-md-6 col-lg-3" >
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="/assets/img/story1.jpg" class="img-fluid rounded-start" alt="...">
+        <img src= "/assets/img/{{story.image}}" class="img-fluid rounded-start" alt="...">
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Name of student</h5>
-          <p class="card-text">Job</p>
-          <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus explicabo odit, suscipit amet laborum deserunt est molestiae incidunt doloremque.</p>
-          <p class="card-text"><small class="text-muted">Graduation Date</small></p>
+          <h5 class="card-title">{{story.name}}</h5>
+          <p class="card-text">{{story.job}}</p>
+          <p class="card-text">{{story.text}}</p>
+          <p class="card-text"><small class="text-muted">{{story.graduation}}</small></p>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-<!-- 
-  https://cdn.pixabay.com/photo/2018/07/25/08/59/business-3560934_960_720.jpg -->
+
 
 
