@@ -1,19 +1,23 @@
 
     <div class="hero-box">
 		<div class="hero-content">
-		<div><h1>Codefactory</h1> <h1>Alumni!</h1> </div>
-		<div class="hero-text"><p class="" >Our greatest Discovery is you!</p></div>
-		<a class="mt-4 btn" routerLink="alumni" role="button">more Info</a>
+			<div>
+				<h1>{{hero_texts.title1}}</h1> <h1>{{hero_texts.title2}}</h1>
+			</div>
+			<div class="hero-text">
+				<p>{{hero_texts.text}}</p>
+			</div>
+			<a class="mt-4 btn" routerLink="alumni" role="button">{{hero_texts.button}}</a>
 		</div>
     </div>
 	
 	<nav class="d-none d-lg-block bg-light">
 		
 		<ul>
-			<li><a href="#">REUNION WEEKEND 2021</a></li>
-			<li><a href="#">DISTINGUISHED ALUMNI</a></li>
-			<li><a href="#">CAREER RESOURCES</a></li>
-			<li><a href="#">MORE EVENTS</a></li>
+			<li><a routerLink="">REUNION WEEKEND 2021</a></li>
+			<li><a routerLink="alumni">DISTINGUISHED ALUMNI</a></li>
+			<li><a routerLink="careers">CAREER RESOURCES</a></li>
+			<li><a routerLink="events">MORE EVENTS</a></li>
 		</ul>
 		<div class="socialtop">
 			<div class="top-social">
