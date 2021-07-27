@@ -14,3 +14,7 @@
 button:hover {
   background-color: darkgoldenrod;
 }
+
+button + button {
+  margin-left: 1em !important;
+}

@@ -1,0 +1,29 @@
+#form-div {
+    min-height: 200px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    label, button {
+        margin-top: 1em;
+    }
+
+    button, input {
+        padding: .5em !important;
+        border-radius: .25rem;
+        border: 1px solid black;
+    }
+
+    #login-btn {
+        display: inline-block !important;
+        width:100px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+}
+

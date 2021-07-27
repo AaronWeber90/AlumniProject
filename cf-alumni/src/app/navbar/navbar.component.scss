@@ -1,6 +1,47 @@
+//animation navlist
+@keyframes navleft {
+  from {margin-left: -500px;}
+  to {margin-left: 0}
+}
+
+@keyframes navRight {
+  from {margin-right: -500px;}
+  to {margin-right: 0}
+}
+
+@media screen and (min-width:800px) {
+  
+.nav-left {
+  animation-name: navleft;
+  animation-duration: 3s;
+}
+
+.nav-right {
+  animation-name: navRight;
+  animation-duration: 3s;
+}
+}
+
+#login-btn {
+  background: darkgoldenrod !important;
+  border-radius: 5px;
+  color: #29251f;
+  font-weight: bold;
+  display: inline-block;
+  padding: 6px 12px;
+}
+
+
+
 .blog-header .navbar {
   background: #29251f;
 }
+
+#navbarNav {
+  justify-content: space-between;
+  overflow: hidden;
+}
+
 
 .navbar-brand {
   color: white;
@@ -14,3 +55,4 @@
 .navbar a:hover {
   color: darkgoldenrod;
 }
+

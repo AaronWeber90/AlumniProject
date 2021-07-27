@@ -14,6 +14,9 @@ import { EventsComponent } from './events/events.component';
 import { PurposeInfoComponent } from './purpose-info/purpose-info.component';
 import { PopularCardsComponent } from './popular-cards/popular-cards.component';
 import { HeroComponent } from './hero/hero.component';
+import { LoginComponent } from './login/login.component';
+
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,11 +31,13 @@ import { HeroComponent } from './hero/hero.component';
     EventsComponent,
     PurposeInfoComponent,
     PopularCardsComponent,
-    HeroComponent
+    HeroComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -4,6 +4,7 @@ import { AlumniDirComponent } from './alumni-dir/alumni-dir.component';
 import { CareersComponent } from './careers/careers.component';
 import { EventsComponent } from './events/events.component';
 import { HomeComponent } from './home/home.component';
+import { LoginComponent } from './login/login.component';
 import { StoriesComponent } from './stories/stories.component';
 
 const routes: Routes = [{
@@ -16,7 +17,8 @@ const routes: Routes = [{
   path: "careers", component: CareersComponent
 }, {
   path: "events", component: EventsComponent
-
+}, {
+  path: "login", component: LoginComponent
 }];
 
 @NgModule({

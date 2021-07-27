@@ -1,3 +1,9 @@
+
+@keyframes heroBlur {
+  from {filter: grayscale(100%);}
+  to {filter: none;}
+}
+
 .hero-box {
   background: url("/assets/img/hero.jpg");
   background-size: cover;
@@ -5,6 +11,14 @@
   width: 100vw;
   height: 30vh; //300px;
 }
+
+@media screen and (min-width: 800px) {
+  .hero-box {
+    animation-name: heroBlur;
+    animation-duration: 6s;
+  }
+}
+
 
 .hero-content {
   width: 30vw; //300px;

@@ -24,6 +24,20 @@ export class AlumniDirComponent implements OnInit {
     this.description[student_id] = this.students_list[student_id].text;
   }
 
-  ngOnInit(): void { }
+
+
+  sortStudents(){
+    const sortedStudents = this.students_list.sort();
+    sortedStudents.sort((a:any , b:any) => a.name.localeCompare(b.name));
+  }
+
+  sortStudentsDesc(){
+    const sortedStudents = this.students_list.sort();
+    sortedStudents.sort((a:any , b:any) => b.name.localeCompare(a.name));
+  }
+
+  ngOnInit(): void {
+
+   }
 
 }
